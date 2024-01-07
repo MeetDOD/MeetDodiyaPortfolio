@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap");
+
+:root {
+  --primaryColor: rgb(42, 183, 190);
+  --mainText: "Rubik", sans-serif;
+}
+
+* {
+  scroll-behavior: smooth;
+  text-decoration: none !important;
+  font-family: var(--mainText);
+}
+
+*::selection {
+  color: var(--bgColor);
+  background-color: var(--primaryColor);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.light-theme {
+  --headline: #111b20;
+  --subline: #111b20;
+  --bgColor: #fefefe;
+}
+
+.dark-theme {
+  --headline: #fefefe;
+  --subline: #fefefe;
+  --bgColor: #111b20;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+/* button css */
+
+.learn-more-btn {
+  background-color: var(--primaryColor) !important;
+  font-size: 18px !important;
+  color: whitesmoke !important;
+  padding: 12px 29px !important;
+  border-radius: 10px !important;
+  border: 2px solid var(--primaryColor) !important;
+  box-shadow: 0 10px 20px rgb(0 0 0 /20%) !important;
+  display: inline-block !important;
+  text-decoration: none !important;
+  transition: 0.7s !important;
+}
+
+.btn-extra-header {
+  color: var(--primaryColor) !important;
+  background-color: transparent !important;
+  border: 2px solid var(--primaryColor) !important;
+}
+
+/* Heading css */
+
+.heading {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  max-width: 25rem;
+  font-weight: 300;
+  color: var(--headline);
+  margin: auto;
+}
+
+.heading::before,
+.heading::after {
+  flex: 1;
+  content: "";
+  height: 0.2rem;
+  border-block: 0.15rem solid var(--primaryColor);
+}

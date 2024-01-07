@@ -1,0 +1,35 @@
+.contactUs {
+  background-color: var(--bgColor);
+}
+
+.form-control {
+  background-color: var(--bgColor);
+  border: 2px solid var(--primaryColor);
+}
+
+.form-control:focus {
+  background-color: var(--bgColor);
+}
+
+.form-control::placeholder {
+  color: var(--headline);
+}
+
+.form-control::content {
+  color: #fff;
+}
+
+label {
+  color: var(--headline);
+}
+
+.form-control:focus {
+  border-color: rgba(100, 100, 100, 1) !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+input {
+  color: var(--headline) !important;
+}

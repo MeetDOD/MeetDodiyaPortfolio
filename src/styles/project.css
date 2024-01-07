@@ -1,0 +1,24 @@
+.projects_wrapper {
+  background-color: var(--bgColor);
+}
+
+.projectDescription {
+  color: var(--headline);
+  text-align: left;
+}
+
+@media (max-width: 1193px) {
+  .projects_wrapper {
+    margin-top: -150px;
+  }
+}
+
+@media (min-width: 575px) and (max-width: 991px) {
+  .projectDescription {
+    font-size: 10px;
+  }
+
+  .projectTitle {
+    font-size: 15px;
+  }
+}

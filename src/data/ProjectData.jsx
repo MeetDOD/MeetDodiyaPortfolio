@@ -1,9 +1,9 @@
-import carWale from '../Images/carWale.png'
-import learningMS from '../Images/learningMS.png'
-import oneWatch from '../Images/oneWatch.png'
-import libraryMs from '../Images/lbms.png'
-import hackathonWebApp from '../Images/hackathonWebApp.png'
-import safeSiren from '../Images/safeSiren.png'
+import carWale from '../Images/carWale.png';
+import learningMS from '../Images/learningMS.png';
+import oneWatch from '../Images/oneWatch.png';
+import libraryMs from '../Images/lbms.png';
+import hackathonWebApp from '../Images/hackathonWebApp.png';
+import safeSiren from '../Images/safeSiren.png';
 
 export const projectData = [
     {

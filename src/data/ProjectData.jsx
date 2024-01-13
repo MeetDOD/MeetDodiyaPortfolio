@@ -13,7 +13,7 @@ export const projectData = [
         title: 'CarWale : A Car Buying WebApp',
         description: "Customer can come and buy the cars of their wish with wide range of collection. BrainTree payment gateway, 360 visualization, Car image Gallery, Advance filters, Admin Panel and other functionality included.",
         github: "https://github.com/MeetDOD/carwale",
-        liveLink: "https://carwale.shop"
+        liveLink: "https://carwale.onrender.com"
     },
     {
         id: 2,

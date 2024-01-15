@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/hero.css'
-import meetDodiya from '../Images/meetdodiya.png'
+import myImage from '../Images/myimage.png'
 import { MdEmail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
@@ -15,7 +15,7 @@ const Hero = () => {
                 <div className='container'>
                     <div className='row align-items-center'>
                         <div className='col-md-6 header-img-section imageAnimate'>
-                            <img src={meetDodiya} alt='Hello Carwale' className='img-fluid' />
+                            <img src={myImage} alt='Hello Carwale' className='img-fluid' />
                         </div>
                         <div className="banner-content col-md-6 my-5 my-md-0 text-center text-md-start">
                             <h2><span class="wave"><PiHandWaving className='icons' size={40} /></span> Hello</h2>

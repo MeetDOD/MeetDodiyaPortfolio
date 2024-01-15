@@ -1,5 +1,5 @@
-import React from 'react'
-import '../styles/hero.css'
+import React from 'react';
+import '../styles/hero.css';
 import myImage from '../Images/myimage.png'
 import { MdEmail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";

@@ -6,10 +6,9 @@ import { FaReact } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
-import { RiFlutterFill } from "react-icons/ri";
+import { SiTailwindcss } from "react-icons/si";
 import { TbBrandCpp } from "react-icons/tb";
 import { FaBootstrap } from "react-icons/fa";
-import { FaDatabase } from "react-icons/fa";
 import Heading from './Heading';
 import { FaArrowRight } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
@@ -18,6 +17,7 @@ import { SiFirebase } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { TbBrandReactNative } from "react-icons/tb";
 
 const About = () => {
     return (
@@ -40,11 +40,11 @@ const About = () => {
                         <div className="col-sm-12 col-lg-6 text-center text-md-start">
                             <h3 className='mx-2'>Frontend Technology <FaArrowRight size={30} /></h3>
                             <div class="badge techCard m-2"><FaReact size={30} /><span className='mx-2'>React Js</span></div>
-                            <div class="badge techCard m-2"><RiFlutterFill size={30} /><span className='mx-2'>Flutter</span></div>
+                            <div class="badge techCard m-2"><TbBrandReactNative size={30} /><span className='mx-2'>React Native</span></div>
                             <div class="badge techCard m-2"><FaHtml5 size={30} /><span className='mx-2'>HTML</span></div>
                             <div class="badge techCard m-2"><FaCss3Alt size={30} /><span className='mx-2'>CSS</span></div>
                             <div class="badge techCard m-2"><FaBootstrap size={30} /><span className='mx-2'>BootStrap</span></div>
-
+                            <div class="badge techCard m-2"><SiTailwindcss size={30} /><span className='mx-2'>Tailwind</span></div>
                             <h3 className='mx-2 mt-4'>Backend Technology <FaArrowRight size={30} /></h3>
                             <div class="badge techCard m-2"><TbBrandCpp size={30} /><span className='mx-2'>Cpp</span></div>
                             <div class="badge techCard m-2"><FaNodeJs size={30} /><span className='mx-2'>Node Js</span></div>
@@ -61,43 +61,7 @@ const About = () => {
 
                         </div>
                     </div>
-                    {/* circle wheel animation */}
                 </div>
-                <section class="main-container">
-                    <div class="main">
-                        <div class="big-circle">
-                            <div class="icon-block">
-                                <FaHtml5 className='iconsCircle' />
-                            </div>
-                            <div class="icon-block">
-                                <FaCss3Alt className='iconsCircle' />
-                            </div>
-                            <div class="icon-block">
-                                <FaReact className='iconsCircle' />
-                            </div>
-                            <div class="icon-block">
-                                <FaGithub className='iconsCircle' />
-                            </div>
-                        </div>
-                        <div class="circle">
-                            <div class="icon-block">
-                                <FaNodeJs className='iconsCircle' />
-                            </div>
-                            <div class="icon-block">
-                                <FaDatabase className='iconsCircle' />
-                            </div>
-                            <div class="icon-block">
-                                <TbBrandCpp className='iconsCircle' />
-                            </div>
-                            <div class="icon-block">
-                                <RiFlutterFill className='iconsCircle' />
-                            </div>
-                        </div>
-                        <div class="center-logo">
-                            <p>My Skills</p>
-                        </div>
-                    </div>
-                </section>
             </section>
         </div>
     )

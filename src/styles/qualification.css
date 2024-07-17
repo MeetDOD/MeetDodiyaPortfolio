@@ -12,14 +12,17 @@ main.row {
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 20px;
 }
+
 .col header.title {
   color: var(--headline);
   padding: 0px 0px 20px 30px;
 }
+
 .col .contents {
   padding: 0px 30px;
   border-left: 2px solid var(--primaryColor);
 }
+
 .col .contents .box {
   position: relative;
   padding: 20px;
@@ -30,8 +33,12 @@ main.row {
 }
 
 .col .contents .box::before {
-  content: "";
+  content: "⌛";
+  font-family: "remixicon";
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 35px;
   height: 35px;
   border-radius: 50%;
@@ -39,25 +46,32 @@ main.row {
   top: 0;
   background-color: var(--primaryColor);
   border: 1px solid var(--headline);
+  color: var(--headline);
+  font-size: 16px;
 }
+
 .box h4 {
   position: relative;
   color: var(--primaryColor);
 }
+
 .box h3 {
   font-size: 17px;
   padding: 10px 0px 6px;
   color: var(--headline);
 }
+
 .box p {
   line-height: 1.2;
   color: var(--headline);
   font-size: 15px;
 }
+
 @media (max-width: 768px) {
   main.row {
     grid-template-columns: 1fr;
   }
+
   .row .col:nth-child(2) {
     margin-top: 30px;
   }

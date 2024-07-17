@@ -31,7 +31,7 @@ const About = () => {
                             </div>
                             <p className="about_title">Greetings, I go by the name Meet Dodiya, where ambition, self-motivation, and an unwavering drive define my identity as a versatile Full Stack Developer.</p>
                             <p className="about_text ">🤩 Engaged in the pursuit of a Bachelor's degree in Information Technology.</p>
-                            <p className="about_text ">🌟 Presently navigating through the challenges of the third year of my Engineering journey.</p>
+                            <p className="about_text ">🌟 Presently navigating through the challenges of the final year of my Engineering journey.</p>
                             <p className="about_text ">🌱 Exploring the intricacies of the M.E.R.N Stack, adding layers to my knowledge tapestry.</p>
                             <p className='about_text'>I am a fervent advocate for perpetual growth, fueled by an unwavering passion for technology and an insatiable desire to consistently push the boundaries of what is achievable also Exploring emerging trends in Information Technology 📈</p>
                             <span className='my-3 themeSet'><FaPhoneAlt size={28} />&nbsp; +91&nbsp; 9372575530</span>

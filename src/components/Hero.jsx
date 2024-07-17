@@ -21,7 +21,7 @@ const Hero = () => {
                             <h2><span class="wave"><PiHandWaving className='icons' size={40} /></span> Hello</h2>
                             <h1 className='my-1'>I am  <span style={{ color: "rgb(42, 183, 190)" }}>Meet Dodiya</span></h1>
                             <h4>I'm Full Stack Developer.</h4>
-                            <h4>I'm Third Year IT Engineering Student.</h4>
+                            <h4>I'm Final Year IT Engineering Student.</h4>
                             <h4>Headed out on the road of Mastery!</h4>
                             <div className='mt-3'>
                                 <MdEmail size={30} className='icons' onClick={() => window.open("mailto:dodiyameet041@gmail.com")} />

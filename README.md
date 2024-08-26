@@ -22,4 +22,12 @@
 
 ## **Live Link :-** [Meet Dodiya](https://meetdodiya.onrender.com)
 
+**Screenshots**
+
+![image](https://github.com/user-attachments/assets/6763259f-b9bd-4777-b816-7c760a28937d)
+
+![image](https://github.com/user-attachments/assets/69fbeb44-b6b7-4d0e-9a68-44ee85cc98ce)
+
+![image](https://github.com/user-attachments/assets/c9fc3346-99cc-4499-9ac5-b1c238e164d2)
+
 **This portfolio serves as a digital representation of who I am, effectively presenting my professional identity and making it easy for potential employers, collaborators, or clients to engage with me.**

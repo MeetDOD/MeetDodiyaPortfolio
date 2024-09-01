@@ -33,7 +33,7 @@ main.row {
 }
 
 .col .contents .box::before {
-  content: "⌛";
+  content: "🚀";
   font-family: "remixicon";
   position: absolute;
   display: flex;

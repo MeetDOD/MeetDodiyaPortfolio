@@ -19,7 +19,7 @@ const Qualification = () => {
                                 <h4>2021 - Ongoing</h4>
                                 <h3>Vidyavardhini's College Of Engineering And Technology</h3>
                                 <p>Bachelor of Engineering (B.E) In Information Technology</p>
-                                <p>CGPA: 9.3/10</p>
+                                <p>CGPA: 9.17/10</p>
                             </div>
                             <div className="box">
                                 <h4>2019 - 2021</h4>
@@ -40,9 +40,9 @@ const Qualification = () => {
                         </header>
                         <div className="contents">
                             <div className="box">
-                                <h4>May 2024 - Present</h4>
+                                <h4>May 2024 - Aug 2024</h4>
                                 <h3>GirlScript Summer of Code</h3>
-                                <h3>Contributor - Rank 16</h3>
+                                <h3>Contributor - Rank 15</h3>
                                 <p>Contributed to multiple open-source projects, enhancing functionality, fixing bugs, and collaborating globally.</p>
                             </div>
                             <div className="box">
@@ -53,8 +53,8 @@ const Qualification = () => {
                             <div className="box">
                                 <h4>July 2023 - Present</h4>
                                 <h3>VCET Hackathon</h3>
-                                <h3>Web Consultant</h3>
-                                <p>Developing and Managing Hackathon Website in Various aspect.</p>
+                                <h3>Web Consultant Head</h3>
+                                <p>Developing and Managing VCET Hackathon Website in Various aspect.</p>
                             </div>
                             <div className="box">
                                 <h4>Jul 2023 - Nov 2023</h4>

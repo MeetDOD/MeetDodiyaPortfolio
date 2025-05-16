@@ -19,7 +19,7 @@ const Qualification = () => {
                                 <h4>2021 - Ongoing</h4>
                                 <h3>Vidyavardhini's College Of Engineering And Technology</h3>
                                 <p>Bachelor of Engineering (B.E) In Information Technology</p>
-                                <p>CGPA: 9.17/10</p>
+                                <p>CGPA: 9.38/10</p>
                             </div>
                             <div className="box">
                                 <h4>2019 - 2021</h4>

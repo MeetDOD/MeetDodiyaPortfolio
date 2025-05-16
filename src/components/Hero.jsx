@@ -5,7 +5,7 @@ import { MdEmail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { PiHandWaving } from "react-icons/pi";
-import resume from '../Images/MeetDodiya.pdf'
+import resume from '../Images/MEET_DODIYA.pdf'
 import { Link } from 'react-scroll';
 
 const Hero = () => {
@@ -19,7 +19,7 @@ const Hero = () => {
                         </div>
                         <div className="banner-content col-md-6 my-5 my-md-0 text-center text-md-start">
                             <h2><span class="wave"><PiHandWaving className='icons' size={40} /></span> Hello</h2>
-                            <h1 className='my-1'>I am  <span style={{ color: "rgb(42, 183, 190)" }}>Meet Dodiya</span></h1>
+                            <h1 className='my-1'>I am  <span style={{ color: "rgb(42, 183, 190)" }}>Meet Ashok Dodiya</span></h1>
                             <h4>I'm Full Stack Developer.</h4>
                             <h4>I'm Final Year IT Engineering Student.</h4>
                             <h4>Headed out on the road of Mastery!</h4>

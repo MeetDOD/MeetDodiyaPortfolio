@@ -1,8 +1,8 @@
+import ci from '../Images/ci.png';
 import carWale from '../Images/carWale.png';
 import learningMS from '../Images/learningMS.png';
 import oneWatch from '../Images/oneWatch.png';
 import libraryMs from '../Images/lbms.png';
-import hackathonWebApp from '../Images/hackathonWebApp.png';
 import safeSiren from '../Images/safeSiren.png';
 import styleShare from '../Images/styleShare.png';
 import hack from "../Images/hack24.png";
@@ -10,6 +10,15 @@ import hack from "../Images/hack24.png";
 export const projectData = [
     {
         id: 1,
+        image: ci,
+        technology: "M.E.R.N Stack",
+        title: 'Career Insight : Your Guide to Tech',
+        description: "Developed an AI-powered career guidance platform with 12+ features including tech trend analysis, AI mock interviews, and resume building capabilities, serving 50+ active VCET students. Career Insight has you covered.",
+        github: "https://github.com/MeetDOD/CareerInsight",
+        liveLink: "https://careerinsight.onrender.com"
+    },
+    {
+        id: 2,
         image: carWale,
         technology: "M.E.R.N Stack",
         title: 'CarWale : A Car Buying WebApp',
@@ -18,7 +27,7 @@ export const projectData = [
         liveLink: "https://carwale.onrender.com"
     },
     {
-        id: 2,
+        id: 3,
         image: learningMS,
         technology: "Django rest framework and ReactJS",
         title: 'EduLearning : A Learning WebApp',
@@ -27,7 +36,7 @@ export const projectData = [
         liveLink: "https://team-edu.web.app"
     },
     {
-        id: 3,
+        id: 4,
         image: styleShare,
         technology: "M.E.R.N Stack",
         title: 'StyleShare : Open Source Contribution',
@@ -36,7 +45,7 @@ export const projectData = [
         liveLink: "https://style-share.vercel.app/app"
     },
     {
-        id: 4,
+        id: 5,
         image: hack,
         technology: "M.E.R.N Stack",
         title: 'Hackathon Registration WebApp 2024',
@@ -45,7 +54,7 @@ export const projectData = [
         liveLink: "https://vcet-hackathon.com"
     },
     {
-        id: 5,
+        id: 6,
         image: oneWatch,
         technology: "M.E.R.N Stack",
         title: 'OneWatch : A Watch Buying WebApp',
@@ -54,7 +63,7 @@ export const projectData = [
         liveLink: "https://one-watch-store.web.app"
     },
     {
-        id: 6,
+        id: 7,
         image: safeSiren,
         technology: "M.E.R.N Stack",
         title: "SafeSiren : Women's Safety WebApp",
@@ -63,21 +72,12 @@ export const projectData = [
         liveLink: "https://safesiren.vercel.app"
     },
     {
-        id: 7,
+        id: 8,
         image: libraryMs,
         technology: "JAVA (Desktop Application)",
         title: 'Library Management System',
         description: "Build with netbeans IDE, it is desktop application for library use, it has all function that a librarian can do in his notebook and manage the library in effective manner. C.R.U.D Operation with modern UI/UX.",
         github: "https://github.com/MeetDOD/Library-Management-System-desktop-application-",
         liveLink: "https://github.com/MeetDOD/Library-Management-System-desktop-application-"
-    },
-    {
-        id: 8,
-        image: hackathonWebApp,
-        technology: "M.E.R.N Stack",
-        title: 'Hackathon Registration WebApp 2023',
-        description: "This is the vcet hackathon 2023 webapp which is created for my college Hackathon Registration Process. Using various Reactjs packages and various npm Libraries for animation, models and many other libraries.",
-        github: "https://github.com/MeetDOD/Vcet-Hackathon-2023",
-        liveLink: "https://vcet-hackathon.web.app"
     }
 ]
